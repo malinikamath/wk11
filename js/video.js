@@ -56,8 +56,8 @@ document.querySelector("#slider").addEventListener("input", function() {
 	document.querySelector("#volume").textContent = video.volume * 100 + "%";
 });
 
-document.querySelector("#vintage").addEventListener("click", function(){
-	console.log("Vintage");
-	video.class("old");
+// document.querySelector("#vintage").addEventListener("click", function(){
+// 	console.log("Vintage");
+// 	video.class("old");
 	
-});
+// });
